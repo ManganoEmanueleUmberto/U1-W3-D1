@@ -234,11 +234,6 @@ console.log(filmAfter2000(movies))
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
 
-const findFilm = (array, filtro) => {
-  return array.imdbID === filtro
-}
-
-console.log(findFilm(movies, "tt0167261"))
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
 */
